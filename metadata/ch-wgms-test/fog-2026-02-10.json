@@ -1,5 +1,5 @@
 {
-  "id": "urn:wmo:md:wgms:fog-2026-02-10",
+  "id": "urn:wmo:md:ch-wgms-test:fog-2026-02-10",
   "type": "Feature",
   "conformsTo": [
     "http://wis.wmo.int/spec/wcmp/2/conf/core"
