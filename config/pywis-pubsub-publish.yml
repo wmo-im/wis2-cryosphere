@@ -1,0 +1,2 @@
+broker: ${PYWIS_PUBSUB_BROKER_URL}
+#verify_certs: false
