@@ -1,0 +1,157 @@
+{
+  "id": "urn:wmo:md:wgms:fog-2026-02-10",
+  "type": "Feature",
+  "conformsTo": [
+    "http://wis.wmo.int/spec/wcmp/2/conf/core"
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180,
+          -90
+        ],
+        [
+          180,
+          -90
+        ],
+        [
+          180,
+          90
+        ],
+        [
+          -180,
+          90
+        ],
+        [
+          -180,
+          -90
+        ]
+      ]
+    ]
+  },
+  "time": {
+    "interval": [
+      "1127-01-01T00:00:00Z",
+      "2026-02-11T00:00:00Z"
+    ],
+    "resolution": "P1D"
+  },
+  "properties": {
+    "type": "dataset",
+    "title": "Fluctuations of Glaciers (FoG) database",
+    "description": "Internationally collected, standardized dataset on glacier state and change (length, area, volume, mass) based on in-situ measurements, remote sensing, and reconstructions.",
+    "themes": [
+      {
+        "scheme": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline",
+        "concepts": [
+          {
+            "id": "cryosphere",
+            "title": "Cryosphere",
+            "url": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/cryosphere"
+          }
+        ]
+      },
+      {
+        "scheme": "https://codes.wmo.int/wmdr/ObservedVariableTerrestrial",
+        "concepts": [
+          {
+            "id": "12010",
+            "title": "Glacier-wide mass balance",
+            "url": "https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/12010"
+          },
+          {
+            "id": "12009",
+            "title": "Glacier mass balance at a point",
+            "url": "https://codes.wmo.int/wmdr/ObservedVariableTerrestrial/12009"
+          }
+        ]
+      }
+    ],
+    "contacts": [
+      {
+        "organization": "World Glacier Monitoring Service",
+        "name": "Ethan Welty",
+        "roles": [
+          "processor",
+          "producer",
+          "licensor",
+          "host",
+          "publisher"
+        ],
+        "emails": [
+          {
+            "value": "wgms@geo.uzh.ch",
+            "roles": [
+              "pointOfContact"
+            ]
+          }
+        ],
+        "addresses": [
+          {
+            "country": "CHE",
+            "city": "Zurich"
+          }
+        ],
+        "links": [
+          {
+            "rel": "about",
+            "href": "https://wgms.ch",
+            "type": "",
+            "title": "World Glacier Monitoring Service"
+          }
+        ],
+        "contactInstructions": "Email preferred"
+      }
+    ],
+    "created": "2008-12-31T00:00:00Z",
+    "wmo:dataPolicy": "recommended",
+    "keywords": [
+      "glacier",
+      "global",
+      "mass change",
+      "elevation change",
+      "length change",
+      "mass balance"
+    ],
+    "version": "2026-02-10",
+    "externalIds": [
+      {
+        "scheme": "https://doi.org",
+        "value": "10.5904/wgms-fog-2026-02-10"
+      }
+    ],
+    "status": {
+      "id": "operational",
+      "title": "Continuously evaluated, validated, and produced under authority responsibility",
+      "url": "https://codes.wmo.int/wis/operational-status/operational"
+    }
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "type": "text/html",
+      "title": "Creative Commons Attribution 4.0 International"
+    },
+    {
+      "rel": "about",
+      "href": "https://wgms.ch/data_databaseversions/",
+      "type": "text/html",
+      "title": "Fluctuations of Glaciers (FoG) database"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.5904/wgms-fog-2026-02-10",
+      "type": "text/html",
+      "title": "Fluctuations of Glaciers (FoG) database"
+    },
+    {
+      "rel": "preview",
+      "href": "https://wgms.ch/data/faq/_FAQ_RefGlac_Global_Annual_MB.svg",
+      "type": "image/svg+xml",
+      "title": "Global annual mass change of reference glaciers"
+    }
+  ]
+}
